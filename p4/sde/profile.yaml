@@ -1,0 +1,10 @@
+global-options: { build_model: true }
+features:
+  drivers:
+    bfrt: true
+    bfrt-generic-flags: false
+    grpc: true
+    thrift-driver: true
+    kernel-modules: false
+architectures:
+  - tofino
